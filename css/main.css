@@ -1,0 +1,171 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background:linear-gradient(90deg, #000000 0%,#434343 100% );
+  font-size: 16px;
+}
+
+header {
+  position: relative;
+  background-image: url(../img/office-865091_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.me {
+  position: absolute;
+  top: 390px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.me img {
+  width: 240px;
+  border-radius: 50%;
+  border: white solid 5px;
+}
+
+.logo {
+  position: absolute;
+  width: 100%;
+  top: 130px;
+  text-align: center;
+}
+
+.logo img {
+  width: 350px;
+}
+
+.social {
+  position: absolute;
+  top: 280px;
+  text-align: center;
+  width: 100%;
+}
+
+.social-list li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.social-list li a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 22px;
+  border: white solid 2px;
+  border-radius: 30% 10%;
+}
+
+.social-list li a:hover {
+  color: #ffb64c;
+  border-color: #ffb64c;
+}
+
+.menu {
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  padding: 10px;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 12px;
+}
+
+.menu li a {
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  padding: 2px 5px;
+}
+
+.menu li a:hover {
+  border-bottom: #ff9800 solid 2px;
+}
+
+#orc {
+  padding: 5px 18px;
+  border: #ff9800 solid 2px;
+  border-radius: 20px;
+}
+
+#orc:hover {
+  background-color: #ff9800;
+}
+
+main {
+  position: relative;
+  width: 100%;
+}
+
+#sites {
+  text-align: center;
+  margin-top: 40px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 30px;
+}
+
+.sites-title {
+  padding: 30px 130px;
+  width: 100%;
+}
+
+.sites-title h2 {
+  color: white;
+  font-family: Orbitron, Arial, Helvetica, sans-serif;
+  font-size: 39px;
+}
+
+.card-site {
+  margin-left: 150px;
+  text-align: left;
+  background-color: #3a3a3a;
+  border-radius: 10px 20px 20px 10px;
+  box-sizing: border-box;
+  width: 1000px;
+  margin-bottom: 30px;
+}
+
+.card-site img {
+  box-sizing: border-box;
+  width: 60%;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.card-site:hover {
+  transition: 1s;
+  box-shadow: 2px 2px 25px 10px #1d1d1d;
+}
+
+.description {
+  width: 35%;
+  float: right;
+  margin-right: 25px;
+  margin-top: 30px;
+}
+
+.description h2 {
+  color: white;
+  font-family: Orbitron ,Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+
+.description p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
